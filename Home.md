@@ -35,14 +35,20 @@ ___
 
 
 
+# Help
 
 
 ___
 ### Push/Pull updates to/from vault to repo 
 
+#### Mobile:
 ##### Push
 - Run ./push_sync.sh inside repo in termux
 
 ##### Pull
 - Run ./pull_sync.sh inside repo in termux
+
+
+#### Laptop:
+- just modify the repo directly for now
 ___
