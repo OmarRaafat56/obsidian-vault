@@ -35,4 +35,6 @@ ___
 ### Step by step guide to push/pull to/from github
 
 1. cd /data/data/com.termux/files/home/storage/shared/'Obsidian vaults'/'Library of Babel'
-2. 
+#### To pull changes
+1. git fetch origin
+2. git checkout origin/main -- Home/Pages Home.md
