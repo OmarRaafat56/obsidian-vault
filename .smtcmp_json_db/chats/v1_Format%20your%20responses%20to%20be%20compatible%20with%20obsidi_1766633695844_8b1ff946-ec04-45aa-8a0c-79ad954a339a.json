@@ -1,0 +1,136 @@
+{
+  "id": "8b1ff946-ec04-45aa-8a0c-79ad954a339a",
+  "title": "Format your responses to be compatible with obsidi",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Format your responses to be compatible with obsidian",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nFormat your responses to be compatible with obsidian\n\n"
+        }
+      ],
+      "id": "ee3d2c1f-7ff0-44e2-b6a7-7668fd59dc54",
+      "mentionables": []
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hello",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHello\n\n"
+        }
+      ],
+      "id": "0273df91-4f3f-4f1d-87a3-9124b03f5e97",
+      "mentionables": []
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": null,
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHello\n\n"
+        }
+      ],
+      "id": "e828a0b0-316d-4c65-b193-6e3c57de7059",
+      "mentionables": []
+    }
+  ],
+  "createdAt": 1766633017154,
+  "updatedAt": 1766633695844,
+  "schemaVersion": 1
+}

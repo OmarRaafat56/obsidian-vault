@@ -1,0 +1,2 @@
+
+Are you happy like this? Aughhhh I'm in painting I don't want to experience discomforttttt fuckkk agghhh ughhhh ohhhhhh every second feels like my brain is being torn apart to fuck my life I know what I need to do but it is so fucinh hard to do it I already know what to do and how to do it I know how to achiever my dreams but I cant force my body to move this is the fundamental challenge that I face how do I move regardless of the painnn help me pleaseee

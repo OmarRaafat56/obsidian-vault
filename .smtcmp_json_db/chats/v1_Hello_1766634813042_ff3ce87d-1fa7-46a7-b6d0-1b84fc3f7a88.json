@@ -1,0 +1,103 @@
+{
+  "id": "ff3ce87d-1fa7-46a7-b6d0-1b84fc3f7a88",
+  "title": "Hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hello",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHello\n\n"
+        }
+      ],
+      "id": "1334b36a-ccb7-42b2-af3b-b18b1cef26e9",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Learning/CCNA.md"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hello",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHello\n\n"
+        }
+      ],
+      "id": "6b84a706-218a-4937-862d-3d8924571e0a",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Learning/CCNA.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1766633740945,
+  "updatedAt": 1766634813042,
+  "schemaVersion": 1
+}

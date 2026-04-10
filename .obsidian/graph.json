@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:Home",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "Path:Home/Pages/College  ",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    },
+    {
+      "query": "path:Home/Pages/Projects  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Home/Pages/Youtube  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.551,
+  "repelStrength": 13.3,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.8520237519737026,
+  "close": true
+}

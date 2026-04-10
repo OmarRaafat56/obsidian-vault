@@ -1,0 +1,31 @@
+{
+  "id": "55bdce99-6123-45e3-860c-f2a54774dc3d",
+  "name": "Obsidian compat.",
+  "content": {
+    "nodes": [
+      {
+        "children": [
+          {
+            "detail": 0,
+            "format": 0,
+            "mode": "normal",
+            "style": "",
+            "text": "Format your responses to be compatible with obsidian",
+            "type": "text",
+            "version": 1
+          }
+        ],
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "type": "paragraph",
+        "version": 1,
+        "textFormat": 0,
+        "textStyle": ""
+      }
+    ]
+  },
+  "createdAt": 1766632980651,
+  "updatedAt": 1766632980651,
+  "schemaVersion": 1
+}

@@ -1,0 +1,5 @@
+[[Youtube]]
+
+I honestly don't know what to do with the channel. I think I fucked it up real bad, except en alot of channels start of uploading garbage for years on end without gaining a single subscriber I just don't have the skill to blow up overnight nor do I lack the shame to drift and steal for content.
+I'm thinking I should just upload whatever at whatever quality as long as I enjoy it. Fuck marketability or whatever and fuck that little bitch I don't want to compare myself to anybody anymore I've been there done that. Yeah my first video will be me just drawing in photopea with whatever yoitube copyright free lofi slop it gives me- the only editing I'd cropping the edges ,cutting the beginning and ending obs, and adding the lofislop
+And immediately after I'm going to put a typing short 
