@@ -5,13 +5,18 @@
 
 
 
-
+- [ ] duhr
+- [ ] asr
+- [ ] eat
+- [ ] chocolate
 - [ ] watch fate eps
-- [ ] download stuff from the download list
 - [ ] start moving files from arch (configs, scripts, pictures)
 - [ ] python hour 3
-- [ ] watch invincible s4
 - [ ] make/download models for ragdoll and car
+
+
+
+- [ ] watch invincible s4
 
 
 
@@ -34,7 +39,7 @@
 - [ ] work in a call center to make money to buy a home server
 - [ ] get training to pass college requirements
 - [ ] build a reddit feed of "discord memes" to steal and become a meme channel
-- [ ] after finishing the ethical hacking course, try your hand at bug bounties
+- [ ] after finishing the ethical hacking course, try your hand at bug bounties and hacking websites (kiopatrix, overthewire)
 - [ ] make "leveling up" tracker app
 - [ ] learn flutter
 - [ ] learn frontend 
