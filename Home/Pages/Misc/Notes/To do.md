@@ -3,22 +3,12 @@
 
 # short term
 
-
-
-- [ ] duhr
-- [ ] asr
-- [ ] eat
 - [ ] chocolate
 - [ ] watch fate eps
 - [ ] start moving files from arch (configs, scripts, pictures)
 - [ ] python hour 3
 - [ ] make/download models for ragdoll and car
-
-
-
 - [ ] watch invincible s4
-
-
 
 # medium term
 
@@ -30,7 +20,7 @@
 - [ ] research on the crimes of nato
 - [ ] sit down and read for 30 mins
 - [ ] program boid
-- [ ] procedural generation
+- [ ] program procedural generation
 - [ ] make tracking app + it's own widget
 - [ ] setup sync system on windows for vault
 - [ ] ethical hacking hour 7
@@ -44,6 +34,7 @@
 - [ ] learn flutter
 - [ ] learn frontend 
 - [ ] learn backend
+- [ ] get 10 subscribers
 
 
 
