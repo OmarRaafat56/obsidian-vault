@@ -54,6 +54,5 @@ ___
 #### Laptop:
 - just modify the repo directly for now
 ___
-Hello World
 
 

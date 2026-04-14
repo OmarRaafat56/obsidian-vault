@@ -5,7 +5,7 @@
 
 - [ ] chocolate
 - [ ] watch fate eps
-- [ ] start moving files from arch (configs, scripts, pictures)
+- [x] start moving files from arch (configs, scripts, pictures)
 - [ ] python hour 3
 - [ ] make/download models for ragdoll and car
 - [ ] watch invincible s4

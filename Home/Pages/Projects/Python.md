@@ -1,5 +1,5 @@
 [[Projects]]
-#python #lists #dictionaries #sets #discrete #string #counter #intermediate 
+#python #lists #dictionaries #sets #discrete #string #counter #intermediate #numpy #generator #random #threading #multiprocessing 
 
 **1. Lists:**
 
@@ -265,3 +265,270 @@ print(f"Most common word: {most_common_word}") # Output: Most common word: ('thi
 ---
 
 The `collections.Counter` class is a highly efficient and convenient tool for handling frequency counting tasks in Python.  It's significantly faster than manually implementing this functionality using dictionaries, especially when dealing with large datasets.
+
+
+Python Concepts & Libraries Explained
+
+
+---
+
+1. **random** Library
+
+- Used for pseudo-random number generation (deterministic unless seeded).
+
+#### Common Functions
+
+```
+import random
+
+random.random()        # float in [0.0, 1.0)
+random.randint(1, 10) # integer between 1 and 10 (inclusive)
+random.choice([1,2,3]) # random element
+random.shuffle(lst)   # shuffle list in-place
+
+```
+#### Notes
+
+- Not cryptographically secure
+
+- Uses Mersenne Twister algorithm
+
+
+
+---
+
+2. **secrets** Library
+
+- Used for cryptographically secure random numbers (for passwords, tokens, etc.).
+
+#### Common Functions
+
+```
+import secrets
+
+secrets.randbelow(10)        # secure int in [0, 10)
+secrets.choice(['a','b'])    # secure choice
+secrets.token_hex(16)        # secure hex string
+
+```
+#### Notes
+
+- Suitable for security-sensitive use cases
+
+- Preferred over random for authentication tokens
+
+
+
+---
+
+3. **numpy** Library
+
+- Used for numerical computing and array operations.
+
+
+```Example
+
+import numpy as np
+
+arr = np.array([1, 2, 3])
+arr * 2        # array([2, 4, 6])
+np.mean(arr)   # 2.0
+```
+
+#### Key Features
+
+- Fast vectorized operations
+
+- Multi-dimensional arrays (ndarray)
+
+- Linear algebra, statistics, etc.
+
+
+
+---
+
+4. **Decorators**
+
+- A function that modifies another function.
+
+
+```Example
+
+def my_decorator(func):
+    def wrapper():
+        print("Before")
+        func()
+        print("After")
+    return wrapper
+
+@my_decorator
+def say_hi():
+    print("Hi")
+
+say_hi()
+```
+
+**Output**
+
+```
+Before
+Hi
+After
+```
+
+---
+
+5. **Wrappers**
+
+- A function inside a decorator that wraps the original function.
+
+#### Role
+
+- Adds behavior before/after function call
+
+- Controls arguments and return values
+
+
+
+```Example
+
+def wrapper(*args, **kwargs):
+    print("Calling function")
+    return func(*args, **kwargs)
+```
+
+
+---
+
+6. functools **Library**
+
+- Provides **higher-order function utilities**.
+
+**Common Functions**
+
+lru_cache **(memoization)**
+```
+
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fib(n):
+    if n < 2: return n
+    return fib(n-1) + fib(n-2)
+```
+
+
+reduce
+```
+
+from functools import reduce
+
+reduce(lambda x, y: x + y, [1,2,3])  # 6
+```
+
+
+---
+
+7. **Generators** & yield
+
+- Generators produce values **lazily** (on demand).
+
+
+```Example
+
+def count_up(n):
+    for i in range(n):
+        yield i
+
+for x in count_up(3):
+    print(x)
+    
+```
+
+**Output**
+```
+
+0
+1
+2
+```
+
+#### Notes
+
+- Saves memory
+
+- Maintains state between calls
+
+
+
+---
+
+8. **Threading**
+
+- Used for **concurrent execution (I/O-bound tasks).**
+
+
+```Example
+
+import threading
+
+def task():
+    print("Running")
+
+t = threading.Thread(target=task)
+t.start()
+t.join()
+```
+
+#### Notes
+
+- Shares memory
+
+- Limited by GIL (Global Interpreter Lock)
+
+
+
+---
+
+9. **Multiprocessing**
+
+- Used for **parallel execution (CPU-bound tasks)**.
+
+
+```Example
+
+from multiprocessing import Process
+
+def task():
+    print("Running")
+
+p = Process(target=task)
+p.start()
+p.join()
+```
+
+#### Notes
+
+- Separate memory space
+
+- Bypasses GIL
+
+- Heavier than threading
+
+
+
+---
+
+**Summary Table**
+
+| Concept | Use Case | Key Benefit |
+| ------- | -------- | ----------- |
+|         |          |             |
+|secrets	|Security randomness|	Cryptographically safe|
+|numpy	|Numerical computing	|Fast array operations|
+|Decorators|	Modify functions	|Code reuse|
+|Wrappers	|Inside decorators|	Control execution|
+|functools	|Functional tools|	Optimization, utilities|
+|Generators	|Lazy iteration|	Memory efficient|
+|Threading|	I/O concurrency	|Lightweight|
+|Multiprocessing|	CPU parallelism	|True parallel execution|
