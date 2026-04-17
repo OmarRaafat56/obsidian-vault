@@ -10,6 +10,6 @@
 # [[Download list]]
 
 
-# [[schedule]]
+# [[Random facts]]
 
 # [[Dopamine detoxing]]
