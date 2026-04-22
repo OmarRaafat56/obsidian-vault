@@ -3,12 +3,15 @@
 
 # short term
 
-- [ ] chocolate
 - [ ] watch fate eps
-- [x] start moving files from arch (configs, scripts, pictures)
-- [ ] python hour 3
 - [ ] make/download models for ragdoll and car
 - [ ] watch invincible s4
+- [ ] liberate davinci resolve from your downloads folder
+- [ ] download necessary files to have virtualbox work
+- [ ] have lmstudio recognize the ais you downloaded
+- [ ] start taking apart your old drive bit by bit
+
+
 
 # medium term
 
@@ -18,7 +21,7 @@
 - [ ] learn bash/c
 - [ ] learn to develop malware
 - [ ] research on the crimes of nato
-- [ ] sit down and read for 30 mins
+- [ ] sit down and meditate for 30 mins for a week consecutively 
 - [ ] program boid
 - [ ] program procedural generation
 - [ ] make tracking app + it's own widget
